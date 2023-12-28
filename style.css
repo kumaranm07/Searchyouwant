@@ -1,0 +1,194 @@
+/* CURRENCY CONVERTER */
+
+.outerdiv {
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    margin: 0px 2px 5px 0px;
+}
+
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Semi-transparent white background */
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    /* Add a subtle shadow */
+    text-align: center;
+    /* Center the content horizontally */
+}
+
+.title {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Merienda', cursive;
+
+}
+
+/* Add some styling to the input fields and button for better visibility */
+input[type="text"],
+input[type="number"],
+select,
+button {
+    width: 50%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#toCurrency {
+    margin-left: 15px;
+}
+
+button {
+    background-color: #0074e4;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0053a6;
+}
+
+/* WEATHER PAGE CSS */
+
+* {
+    margin: 0px 2px 5px 0px;
+}
+
+.container1 {
+    margin-top: 20px;
+    width: 300px;
+    /* Adjust as needed */
+    /* Add a max-width to limit the container's width on larger screens */
+    height: 200px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.5);
+    /* White with 50% transparency */
+    text-align: center;
+}
+
+.title {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Merienda', cursive;
+}
+
+.input {
+    border-radius: 5px;
+    height: 10px;
+
+}
+
+.input2 {
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Remove the default focus border */
+input:focus {
+    outline: none;
+}
+
+.weather-container {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Merienda', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Rancho', cursive;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* MAP DIV */
+
+.mapdiv {
+    background-image: url('mapimage.webp');
+    width: 300px;
+    height: 190px;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Merienda', cursive;
+}
+
+a {
+    position: relative;
+    top: 150px;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* TOP DIV*/
+
+
+.innerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.child1,
+.child2,
+.child3 {
+    flex: 1;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url('bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.outerdiv button {
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    padding: 7px 15px;
+    color: #3498db;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.9);
+}
+
+.gsc-input {
+    width: 500px;
+    padding: 8px;
+    border-radius: 200px;
+    font-size: 14px;
+}
